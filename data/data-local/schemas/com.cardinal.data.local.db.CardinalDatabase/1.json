@@ -1,0 +1,40 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "5fc5d38baf10f2ddbabf591994caa61d",
+    "entities": [
+      {
+        "tableName": "driven_segments",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`wayId` INTEGER NOT NULL, `lastDrivenEpochDay` INTEGER NOT NULL, PRIMARY KEY(`wayId`))",
+        "fields": [
+          {
+            "fieldPath": "wayId",
+            "columnName": "wayId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastDrivenEpochDay",
+            "columnName": "lastDrivenEpochDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "wayId"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '5fc5d38baf10f2ddbabf591994caa61d')"
+    ]
+  }
+}

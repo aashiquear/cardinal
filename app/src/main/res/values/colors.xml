@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardinal_red">#C8102E</color>
+    <color name="cardinal_red_highlight">#E63946</color>
+    <color name="surface_dark">#0A1322</color>
+    <color name="surface_elevated">#1A2942</color>
+    <color name="white_primary">#FFFFFF</color>
+    <color name="speed_green">#1F5E3A</color>
+    <color name="speed_amber">#B45309</color>
+    <color name="speed_red">#991B1B</color>
+    <color name="cyan_driven">#22D3EE</color>
+</resources>

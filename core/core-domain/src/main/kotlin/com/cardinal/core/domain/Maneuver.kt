@@ -1,0 +1,23 @@
+package com.cardinal.core.domain
+
+enum class Maneuver {
+    STRAIGHT,
+    TURN_RIGHT,
+    TURN_LEFT,
+    TURN_SLIGHT_RIGHT,
+    TURN_SLIGHT_LEFT,
+    UTURN_LEFT,
+    UTURN_RIGHT,
+    MERGE,
+    ROUNDABOUT_ENTER,
+    ROUNDABOUT_EXIT_1,
+    ROUNDABOUT_EXIT_2,
+    ROUNDABOUT_EXIT_3,
+    ROUNDABOUT_EXIT_4,
+    DEPART,
+    ARRIVE,
+    RAMP_RIGHT,
+    RAMP_LEFT,
+    CONTINUE,
+    UNKNOWN
+}

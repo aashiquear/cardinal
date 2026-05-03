@@ -1,0 +1,45 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.cxx/
+.externalNativeBuild/
+captures/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kotlin
+*.class
+*.kotlin_module
+
+# Log files
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Secrets
+secrets.properties
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# NDK
+obj/
